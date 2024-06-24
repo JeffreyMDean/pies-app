@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+cake = Cake.new(name: "Apple Pie", ingredients: "Apples", price: 7)
+cake.save
+
+cake = Cake.new(name: "Pumpkin Pie", ingredients: "pumpkins", price: 5)
+cake.save
